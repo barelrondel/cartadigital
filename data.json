@@ -488,7 +488,7 @@
 			"missing": "carne-bocata-grande.jpg",
 			"filters": [],
 			"allergens": ["huevos", "lacteos", "gluten"],
-			"description": ["Lomo, beicon, queso, huevo, lechuga y tomate. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "Pork loin, bacon, cheese, egg, lettuce and tomato sandwich. Served with fries to dip in our magic sauce (contains egg)."]
+			"description": ["Lomo, beicon, queso, huevo, lechuga y tomate. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)", "Pork loin, bacon, cheese, egg, lettuce and tomato sandwich. Served with fries to dip in our magic sauce (contains egg)."]
 		},
 		"hamburguesa-completa": {
 			"name": ["Hamburguesa completa de pollo empanado", "Fried chicken hamburger"],
