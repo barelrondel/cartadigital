@@ -688,7 +688,7 @@
 		},
 		"zumo-natural": {
 			"name": ["Zumo de naranja natural", "Natural orange juice"],
-			"price": 2.4,
+			"price": 2.5,
 			"image": "zumo-natural.png",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
