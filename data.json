@@ -63,7 +63,7 @@
 		"raciones": {
 			"name": ["Raciones", "Platters"],
 			"image": "plato-dia.jpeg",
-			"items": ["queso-racion", "jamon-racion", "berenjenas-racion", "carne-racion", "finger-racion", "pechuga-racion", "calamares-racion", "cazon-racion", "ensalada", "plato-dia", "plato-combinado"],
+			"items": ["queso-racion", "jamon-racion", "berenjenas-racion", "carne-racion", "calamares-racion", "cazon-racion", "ensalada", "plato-dia", "plato-combinado"],
 			"hasSizes": [["Elija el tamaño", "Media", "Entera"], ["Choose the size", "Half", "Platter"]]
 		},
 		"bebidas": {
