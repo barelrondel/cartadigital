@@ -585,19 +585,19 @@
 			"description": ""
 		},
 		"finger-racion": {
-			"name": ["Finger de pollo", "Chicken finger"],
-			"price":  [8.5, 12],
+			"name": ["Finger pollo", "Chicken finger dogfish"],
+			"prices":  [8.5, 12.0],
 			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
-			"missing": "carne-racion.jpg",
+			"missing": "calamares-racion.jpg",
 			"filters": [],
 			"allergens": ["gluten"],
 			"description": ""
 		},
 		"pechuga-racion": {
-			"name": ["Pechuga de pollo", "Chicken"],
-			"price":  [8.5, 12],
+			"name": ["Pechuga pollo", "Chicken"],
+			"prices":  [8.5, 12.0],
 			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
-			"missing": "carne-racion.jpg",
+			"missing": "calamares-racion.jpg",
 			"filters": [],
 			"allergens": ["gluten"],
 			"description": ""
