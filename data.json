@@ -587,6 +587,7 @@
 		"finger-racion": {
 			"name": ["Finger de pollo", "Chicken finger"],
 			"price":  [8.5, 12],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
 			"missing": "carne-racion.jpg",
 			"filters": [],
 			"allergens": ["gluten"],
@@ -595,6 +596,7 @@
 		"pechuga-racion": {
 			"name": ["Pechuga de pollo", "Chicken"],
 			"price":  [8.5, 12],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
 			"missing": "carne-racion.jpg",
 			"filters": [],
 			"allergens": ["gluten"],
