@@ -58,12 +58,12 @@
 		"bocadillos": {
 			"name": ["Bocadillos", "Sandwiches"],
 			"image": "carne-bocata-grande.jpg",
-			"items": ["jamon-bocata-grande", "calamares-bocata", "lomo-bocata", "hamburguesa-completa", "hamburguesa-mixta", "beicon-bocata", "carne-bocata-grande"]
+			"items": ["jamon-bocata-grande", "calamares-bocata", "lomo-bocata", "hamburguesa-completa", "hamburguesa-mixta", "beicon-bocata", "carne-bocata-grande", "pechuga-bocata"]
 		},
 		"raciones": {
 			"name": ["Raciones", "Platters"],
 			"image": "plato-dia.jpeg",
-			"items": ["queso-racion", "jamon-racion", "berenjenas-racion", "carne-racion", "calamares-racion", "cazon-racion", "tomate-racion", "ensalada", "plato-dia", "plato-combinado"],
+			"items": ["queso-racion", "jamon-racion", "berenjenas-racion", "carne-racion", "calamares-racion", "cazon-racion", "finger-racion", "pechuga-racion", "ensalada", "plato-dia", "plato-combinado"],
 			"hasSizes": [["Elija el tamaño", "Media", "Entera"], ["Choose the size", "Half", "Platter"]]
 		},
 		"bebidas": {
@@ -210,7 +210,7 @@
 		},
 		"pechuga-plancha": {
 			"name": ["Pechuga a la plancha", "Grilled chicken breast"],
-			"price": 2.0,
+			"price": 2.2,
 			"missing": "beicon.jpg",
 			"filters": [],
 			"allergens": ["huevos", "lacteos", "gluten"],
@@ -218,7 +218,7 @@
 		},
 		"beicon": {
 			"name": ["Bocata de beicon", "Bacon Sandwich"],
-			"price": 2.0,
+			"price": 2.2,
 			"image": "beicon.jpg",
 			"filters": [],
 			"allergens": ["huevos", "lacteos", "gluten"],
@@ -226,7 +226,7 @@
 		},
 		"lomo": {
 			"name": ["Bocata de lomo", "Pork loin sandwich"],
-			"price": 2.0,
+			"price": 2.2,
 			"image": "lomo.jpeg",
 			"filters": [],
 			"allergens": ["lacteos", "gluten", "huevos"],
@@ -234,7 +234,7 @@
 		},
 		"carne-bocata": {
 			"name": ["Bocata de carne en salsa", "Saucy meat sandwich"],
-			"price": 2.0,
+			"price": 2.2,
 			"image": "carne-bocata.jpg",
 			"filters": [],
 			"allergens": ["sulfitos", "gluten"],
@@ -242,7 +242,7 @@
 		},
 		"burguer-pollo": {
 			"name": ["Burguer de pollo empanado", "Fried chicken burguer"],
-			"price": 2.0,
+			"price": 2.2,
 			"image": "burguer-pollo.jpg",
 			"filters": [],
 			"allergens": ["huevos", "sesamo", "gluten", "lacteos"],
@@ -250,7 +250,7 @@
 		},
 		"burguer-plancha": {
 			"name": ["Burguer plancha", "Grilled Burger"],
-			"price": 2.0,
+			"price": 2.2,
 			"image": "burguer-plancha.jpg",
 			"filters": [],
 			"allergens": ["huevos", "sesamo", "gluten", "lacteos"],
@@ -258,7 +258,7 @@
 		},
 		"jamon-bocata": {
 			"name": ["Bocata de jamón serrano", "Cured ham sandwich"],
-			"price": 2.0,
+			"price": 2.2,
 			"missing": "beicon.jpg",
 			"filters": [],
 			"allergens": ["lacteos", "gluten"],
@@ -266,7 +266,7 @@
 		},
 		"tortilla": {
 			"name": ["Bocata de tortilla francesa", "Omelet sandwich"],
-			"price": 2.0,
+			"price": 2.2,
 			"image": "tortilla.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["huevos", "gluten"],
@@ -274,7 +274,7 @@
 		},
 		"flamenquin": {
 			"name": "Flamenquín",
-			"price": 2.0,
+			"price": 2.2,
 			"image": "flamenquin.jpg",
 			"filters": [],
 			"allergens": ["gluten", "lacteos", "huevos"],
@@ -282,7 +282,7 @@
 		},
 		"finger": {
 			"name": ["Finger de pollo", "Chicken tenders"],
-			"price": 2.0,
+			"price": 2.2,
 			"image": "finger.jpg",
 			"filters": [],
 			"allergens": ["gluten", "huevos"],
@@ -290,7 +290,7 @@
 		},
 		"carne": {
 			"name": ["Carne en salsa", "Saucy meat"],
-			"price": 2.0,
+			"price": 2.2,
 			"image": "carne.jpg",
 			"filters": [],
 			"allergens": ["sulfitos", "gluten"],
@@ -298,7 +298,7 @@
 		},
 		"huevo": {
 			"name": ["Huevo con jamón y patatas", "Fried egg with ham and cheese"],
-			"price": 2.0,
+			"price": 2.2,
 			"image": "huevo.jpg",
 			"filters": [],
 			"allergens": ["huevos", "gluten"],
@@ -306,7 +306,7 @@
 		},
 		"pinchitos": {
 			"name": ["Pinchitos", "Skewered pork"],
-			"price": 2.0,
+			"price": 2.2,
 			"image": "pinchitos.jpg",
 			"filters": [],
 			"allergens": [],
@@ -314,7 +314,7 @@
 		},
 		"calamares": {
 			"name": ["Calamares fritos", "Fried squid"],
-			"price": 2.0,
+			"price": 2.2,
 			"image": "calamares.jpg",
 			"filters": [],
 			"allergens": ["moluscos", "gluten"],
@@ -322,7 +322,7 @@
 		},
 		"cazon": {
 			"name": ["Cazón adobado", "Marinated dogfish"],
-			"price": 2.0,
+			"price": 2.2,
 			"image": "cazon.jpg",
 			"filters": [],
 			"allergens": ["pescado", "gluten"],
@@ -330,7 +330,7 @@
 		},
 		"sandwich": {
 			"name": ["Sándwich \"EL RONDEL\"", "\"EL RONDEL\" sandwich"],
-			"price": 2.0,
+			"price": 2.2,
 			"image": "sandwich.jpg",
 			"filters": [],
 			"allergens": ["gluten", "lacteos", "huevos"],
@@ -338,7 +338,7 @@
 		},
 		"sandwich-vegetal": {
 			"name": ["Sándwich vegetal", "Vegetable sandwich"],
-			"price": 2.0,
+			"price": 2.2,
 			"missing": "sandwich.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["gluten", "huevos"],
@@ -346,7 +346,7 @@
 		},
 		"sandwich-mixto": {
 			"name": ["Sándwich mixto", "Ham and cheese sandwich"],
-			"price": 2.0,
+			"price": 2.2,
 			"missing": "sandwich.jpg",
 			"filters": [],
 			"allergens": ["gluten", "lacteos"],
@@ -354,7 +354,7 @@
 		},
 		"berenjenas": {
 			"name": ["Berenjenas con miel", "Fried aubergines with honey"],
-			"price": 2.0,
+			"price": 2.2,
 			"image": "berenjenas.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["gluten"],
@@ -362,7 +362,7 @@
 		},
 		"queso": {
 			"name": ["Queso manchego", "Manchego cheese"],
-			"price": 2.0,
+			"price": 2.2,
 			"image": "queso.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
@@ -370,7 +370,7 @@
 		},
 		"jamon": {
 			"name": ["Jamón serrano", "Cured ham"],
-			"price": 2.0,
+			"price": 2.2,
 			"missing": "jamon-queso.jpg",
 			"filters": [],
 			"allergens": [],
@@ -468,7 +468,7 @@
 		},
 		"jamon-bocata-grande": {
 			"name": ["Bocadillo de jamón serrano con queso y tomate", "Cured ham, cheese and tomato sandwich"],
-			"price": 4.5,
+			"price": 5,
 			"missing": "carne-bocata-grande.jpg",
 			"filters": [],
 			"allergens": ["gluten"],
@@ -508,11 +508,19 @@
 		},
 		"beicon-bocata": {
 			"name": ["Beicon completo", "Bacon sandwich"],
-			"price": 4.5,
+			"price": 5,
 			"missing": "carne-bocata-grande.jpg",
 			"filters": [],
 			"allergens": ["lacteos", "huevo", "gluten"],
 			"description": ["Beicon, huevo, queso, lechuga y tomate. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "Bacon, egg, cheese, lettuce and tomato. Served with fries to dip in our magic sauce (contains egg)."]
+		},
+		"pechuga-bocata": {
+			"name": ["Pechuga completo", "chicken sandwich"],
+			"price": 5,
+			"missing": "carne-bocata-grande.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "huevo", "gluten"],
+			"description": ["Pechuga pollo, huevo, queso, lechuga y tomate. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "chicken, egg, cheese, lettuce and tomato. Served with fries to dip in our magic sauce (contains egg)."]
 		},
 		"carne-bocata-grande": {
 			"name": ["Bocadillo de carne en salsa", "Saucy meat sandwich"],
@@ -524,7 +532,7 @@
 		},
 		"queso-racion": {
 			"name": ["Queso manchego", "Manchego cheese"],
-			"prices":  [6.0, 9.0],
+			"prices":  [7.0, 11.0],
 			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
 			"missing": "queso.jpg",
 			"filters": ["vegetarian"],
@@ -533,7 +541,7 @@
 		},
 		"jamon-racion": {
 			"name": ["Jamón serrano", "Cured ham"],
-			"prices":  [6.0, 9.0],
+			"prices":  [7.0, 11.0],
 			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
 			"missing": "jamon-queso.jpg",
 			"filters": [],
@@ -542,7 +550,7 @@
 		},
 		"berenjenas-racion": {
 			"name": ["Berenjenas fritas con miel", "Fried aubergines with honey"],
-			"prices":  [5.0, 8.0],
+			"prices":  [7.5, 11.0],
 			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
 			"missing": "berenjenas.jpg",
 			"filters": ["vegetarian"],
@@ -551,7 +559,7 @@
 		},
 		"carne-racion": {
 			"name": ["Carne en salsa", "Saucy meat"],
-			"prices":  [6.5, 9.0],
+			"prices":  [8.5, 12.0],
 			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
 			"missing": "carne.jpg",
 			"filters": [],
@@ -560,7 +568,7 @@
 		},
 		"calamares-racion": {
 			"name": ["Calamares fritos o Rejos", "Fried squid"],
-			"prices":  [6.5, 9.0],
+			"prices":  [8.5, 12.0],
 			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
 			"image": "calamares-racion.jpg",
 			"filters": [],
@@ -569,24 +577,32 @@
 		},
 		"cazon-racion": {
 			"name": ["Cazón adobado", "Marinated dogfish"],
-			"prices":  [6.5, 9.0],
+			"prices":  [8.5, 12.0],
 			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
 			"missing": "calamares-racion.jpg",
 			"filters": [],
 			"allergens": ["gluten", "pescado"],
 			"description": ""
 		},
-		"tomate-racion": {
-			"name": ["Tomate aliñado", "Seasoned tomato"],
-			"price":  5,
-			"missing": "calamares-racion.jpg",
-			"filters": ["vegetarian", "vegan"],
+		"finger-racion": {
+			"name": ["Finger de pollo", "Chicken finger"],
+			"price":  [8.5, 12.0],
+			"missing": "calamar-racion.jpg",
+			"filters": ["gluten"],
+			"allergens": [],
+			"description": ""
+		},
+		"pechuga-racion": {
+			"name": ["Pechuga de pollo", "Chicken"],
+			"price":  [8.5, 12.0],
+			"missing": "calamar-racion.jpg",
+			"filters": ["gluten"],
 			"allergens": [],
 			"description": ""
 		},
 		"ensalada": {
 			"name": ["Ensalada de la casa", "Homemade salad"],
-			"price":  6.0,
+			"price":  7.0,
 			"missing": "calamares-racion.jpg",
 			"filters": [],
 			"allergens": ["pescado"],
@@ -594,7 +610,7 @@
 		},
 		"plato-dia": {
 			"name": ["Plato del día", "Daily special"],
-			"price":  4,
+			"price":  4.5,
 			"image": "plato-dia.jpeg",
 			"filters": [],
 			"allergens": ["moluscos", "apio", "gluten"],
@@ -602,7 +618,7 @@
 		},
 		"plato-combinado": {
 			"name": ["Plato combinado", "Combination platter"],
-			"price":  5,
+			"price":  6,
 			"missing": "calamares-racion.jpg",
 			"filters": [],
 			"allergens": ["huevos", "gluten"],
@@ -855,7 +871,7 @@
 		},
 		"cana": {
 			"name": ["Caña (Alhambra Especial o Radler Especial)", "Half pint (Special Alhambra or Special Radler)"],
-			"price": 2.4,
+			"price": 2.5,
 			"image": "cana.jpg",
 			"derives": "canas",
 			"follows": "tapas-gratis",
