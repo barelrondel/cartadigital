@@ -586,18 +586,18 @@
 		},
 		"finger-racion": {
 			"name": ["Finger de pollo", "Chicken finger"],
-			"price":  [8.5, 12.0],
-			"missing": "calamar-racion.jpg",
-			"filters": ["gluten"],
-			"allergens": [],
+			"price":  [8.5, 12],
+			"missing": "carne-racion.jpg",
+			"filters": [],
+			"allergens": ["gluten"],
 			"description": ""
 		},
 		"pechuga-racion": {
 			"name": ["Pechuga de pollo", "Chicken"],
-			"price":  [8.5, 12.0],
-			"missing": "calamar-racion.jpg",
-			"filters": ["gluten"],
-			"allergens": [],
+			"price":  [8.5, 12],
+			"missing": "carne-racion.jpg",
+			"filters": [],
+			"allergens": ["gluten"],
 			"description": ""
 		},
 		"ensalada": {
