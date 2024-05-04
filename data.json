@@ -69,7 +69,7 @@
 		"bebidas": {
 			"name": ["Bebidas", "Drinks"],
 			"image": "refrescos.jpg",
-			"items": ["refrescos", "vino-sin", "tinto-verano", "nestea-aquarius", "cana", "tubo", "quinto", "tercio", "radler-shandy", "especiales", "1906", "roja", "quinto-00", "tercio-00", "tercio-sin-gluten", "combinado", "combinado-especial", "chupito", "copa-licor", "vaso-licor"],
+			"items": ["refrescos", "vino-sin", "tinto-verano", "nestea-aquarius", "cana", "tubo", "quinto", "monster", "tercio", "radler-shandy", "especiales", "1906", "roja", "quinto-00", "tercio-00", "tercio-sin-gluten", "combinado", "combinado-especial", "chupito", "copa-licor", "vaso-licor"],
 			"info": ["Nuestras bebidas vienen acompañadas de una <a href=\"#/section/tapas\">tapa</a> gratis a elegir. Máximo dos variedades por mesa.", "Our drinks are served with a free <a href=\"#/section/tapas\">tapa</a> to choose. Two varieties max per table."]
 		},
 		"refrescos": {
@@ -112,7 +112,7 @@
 			"name": ["Cervezas", "Beers"],
 			"hidden": true,
 			"default": "especiales",
-			"items": ["1925", "heineken", "voll-damm"]
+			"items": ["1925", "voll-damm"]
 		},
 		"vinos": {
 			"name": ["Vinos", "Wine"],
@@ -468,7 +468,7 @@
 		},
 		"jamon-bocata-grande": {
 			"name": ["Bocadillo de jamón serrano con queso y tomate", "Cured ham, cheese and tomato sandwich"],
-			"price": 5,
+			"price": 6.5,
 			"missing": "carne-bocata-grande.jpg",
 			"filters": [],
 			"allergens": ["gluten"],
@@ -476,7 +476,7 @@
 		},
 		"calamares-bocata": {
 			"name": ["Bocadillo de calamares fritos con mayonesa", "Fried squid and mayonnaise sandwich"],
-			"price": 5,
+			"price": 6.5,
 			"missing": "carne-bocata-grande.jpg",
 			"filters": [],
 			"allergens": ["moluscos", "lacteos", "gluten"],
@@ -484,7 +484,7 @@
 		},
 		"lomo-bocata": {
 			"name": ["Lomo completo", "Pork loin sandwich"],
-			"price": 5,
+			"price": 6.5,
 			"missing": "carne-bocata-grande.jpg",
 			"filters": [],
 			"allergens": ["huevos", "lacteos", "gluten"],
@@ -492,7 +492,7 @@
 		},
 		"hamburguesa-completa": {
 			"name": ["Hamburguesa completa de pollo empanado", "Fried chicken hamburger"],
-			"price": 5,
+			"price": 6.5,
 			"missing": "burguer-pollo.jpg",
 			"filters": [],
 			"allergens": ["sesamo", "huevos", "lacteos", "gluten"],
@@ -500,7 +500,7 @@
 		},
 		"hamburguesa-mixta": {
 			"name": ["Hamburguesa casera mixta", "Homemade hamburger"],
-			"price": 5,
+			"price": 6.5,
 			"missing": "burguer-plancha.jpg",
 			"filters": [],
 			"allergens": ["sesamo", "huevos", "lacteos", "gluten"],
@@ -508,7 +508,7 @@
 		},
 		"beicon-bocata": {
 			"name": ["Beicon completo", "Bacon sandwich"],
-			"price": 5,
+			"price": 6.5,
 			"missing": "carne-bocata-grande.jpg",
 			"filters": [],
 			"allergens": ["lacteos", "huevo", "gluten"],
@@ -516,7 +516,7 @@
 		},
 		"pechuga-bocata": {
 			"name": ["Pechuga completo", "chicken sandwich"],
-			"price": 5,
+			"price": 6.5,
 			"missing": "carne-bocata-grande.jpg",
 			"filters": [],
 			"allergens": ["lacteos", "huevo", "gluten"],
@@ -524,7 +524,7 @@
 		},
 		"carne-bocata-grande": {
 			"name": ["Bocadillo de carne en salsa", "Saucy meat sandwich"],
-			"price": 5,
+			"price": 6.5,
 			"image": "carne-bocata-grande.jpg",
 			"filters": [],
 			"allergens": ["sulfitos", "gluten"],
@@ -738,7 +738,7 @@
 		},
 		"refrescos": {
 			"name": ["Refrescos", "Refreshments"],
-			"price": 2.70,
+			"price": 2.90,
 			"image": "refrescos.jpg",
 			"follows": "tapas-gratis",
 			"derives": "refrescos",
@@ -784,7 +784,7 @@
 		"bitter-kas": {
 			"template": "refrescos",
 			"name": "Bitter Kas",
-			"price": 2.9,
+			"price": 3,
 			"image": "",
 			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
@@ -818,7 +818,7 @@
 		},
 		"vino-sin": {
 			"name": ["Vino sin alcohol", "Alcohol free wine"],
-			"price": 2.7,
+			"price": 2.9,
 			"image": "vino-sin.jpg",
 			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
@@ -827,7 +827,7 @@
 		},
 		"tinto-verano": {
 			"name": ["Tinto de verano", "Summer punch"],
-			"price": 2.7,
+			"price": 2.9,
 			"image": "tinto-verano.jpg",
 			"follows": "tapas-gratis",
 			"derives": "tintos",
@@ -847,7 +847,7 @@
 		},
 		"nestea-aquarius": {
 			"name": ["Nestea o Aquarius", "Nestea or Aquarius"],
-			"price": 2.9,
+			"price": 3,
 			"image": "nestea-aquarius.jpg",
 			"follows": "tapas-gratis",
 			"derives": "nestea-aquarius",
@@ -873,7 +873,7 @@
 		},
 		"cana": {
 			"name": ["Caña (Alhambra Especial o Radler Especial)", "Half pint (Special Alhambra or Special Radler)"],
-			"price": 2.5,
+			"price": 2.8,
 			"image": "cana.jpg",
 			"derives": "canas",
 			"follows": "tapas-gratis",
@@ -891,7 +891,7 @@
 		},
 		"tubo": {
 			"name": ["Tubo (Alhambra Especial o Radler Especial)", "Pint (Special Alhambra or Special Radler)"],
-			"price": 2.7,
+			"price": 2.9,
 			"image": "tubo.jpg",
 			"derives": "tubos",
 			"follows": "tapas-gratis",
@@ -909,16 +909,27 @@
 		},
 		"quinto": {
 			"name": ["Quinto (Alhambra Especial)", "20 cl Special Alhambra"],
-			"price": 2.5,
+			"price": 2.8,
 			"image": "quinto.jpg",
 			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ""
 		},
+		"monster": {
+			"name": ["Monster", "Monster"],
+			"price": 3,
+			"image": "refrescos.jpg",
+			"follows": "tapas-gratis",
+			"derives": "refrescos",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": ["Monster"]
+
+		},
 		"tercio": {
 			"name": ["Tercio de Especial", "33 cl Special Alhambra"],
-			"price": 2.9,
+			"price": 3,
 			"image": "tercio.jpg",
 			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
@@ -927,7 +938,7 @@
 		},
 		"radler-shandy": {
 			"name": ["Radler o Shandy", "Radler or Shandy"],
-			"price": 2.9,
+			"price": 2.8,
 			"follows": "tapas-gratis",
 			"image": "radler.jpg",
 			"derives": "radler-shandy",
@@ -944,8 +955,8 @@
 			"name": "Shandy"
 		},
 		"especiales": {
-			"name": ["1925, Heineken o Voll-Damm", "1925, Heineken or Voll-Damm"],
-			"price": 3.5,
+			"name": ["1925, o Voll-Damm", "1925 or Voll-Damm"],
+			"price": 3.6,
 			"follows": "tapas-gratis",
 			"image": "heineken.jpeg",
 			"derives": "especiales",
@@ -958,10 +969,6 @@
 			"name": "1925",
 			"image": "1925.png"
 		},
-		"heineken": {
-			"template": "especiales",
-			"name": "Heineken"
-		},
 		"voll-damm": {
 			"template": "especiales",
 			"name": "Voll-Damm",
@@ -969,7 +976,7 @@
 		},
 		"1906": {
 			"name": "1906",
-			"price": 3.5,
+			"price": 3.6,
 			"image": "1906.jpg",
 			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
@@ -987,7 +994,7 @@
 		},
 		"quinto-00": {
 			"name": ["Quinto 00", "20 cl Alcohol free beer"],
-			"price": 2.5,
+			"price": 2.8,
 			"image": "freedamm.jpg",
 			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
@@ -996,7 +1003,7 @@
 		},
 		"tercio-00": {
 			"name": ["Tercio 00", "33 cl Alcohol free beer"],
-			"price": 2.9,
+			"price": 3,
 			"image": "freedamm.jpg",
 			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
@@ -1014,7 +1021,7 @@
 		},
 		"combinado": {
 			"name": ["Combinado", "Cocktails"],
-			"price": 4.5,
+			"price": 5,
 			"image": "combinado.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
@@ -1022,7 +1029,7 @@
 		},
 		"combinado-especial": {
 			"name": ["Combinado especial", "Special cocktails"],
-			"price": 5,
+			"price": 5.5,
 			"image": "combinado-especial.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
