@@ -12,7 +12,7 @@
 		"tapas": {
 			"name": "Tapas",
 			"image": "beicon.jpg",
-			"items": ["pechuga-plancha", "beicon", "lomo", "carne-bocata", "burguer-pollo", "burguer-plancha", "jamon-bocata", "tortilla", "flamenquin", "finger", "huevo", "carne", "pinchitos", "calamares", "cazon", "sandwich", "sandwich-vegetal", "sandwich-mixto", "berenjenas", "queso", "jamon"],
+			"items": ["pechuga-plancha", "beicon", "lomo", "carne-bocata", "burguer-pollo", "burguer-plancha", "jamon-bocata", "tortilla", "flamenquin", "finger", "huevo", "carne", "pinchitos", "calamares", "cazon", "sandwich", "sandwich-vegetal", "sandwich-mixto", "berenjenas", "queso", "jamon", "aceitunas", "salsa-extra"],
 			"info": ["Nuestras <a href=\"#/section/bebidas\">bebidas</a> vienen acompañadas de una tapa gratis a elegir. Máximo dos variedades por mesa.", "Our <a href=\"#/section/bebidas\">drinks</a> are served with a free tapa to choose. Two varieties max per table."]
 		},
 		"tapas-gratis": {
@@ -21,7 +21,7 @@
 			"default": true,
 			"requires": "tapas-gratis",
 			"max": 2,
-			"items": ["pechuga-plancha-gratis","beicon-gratis", "lomo-gratis", "carne-bocata-gratis", "burguer-pollo-gratis", "burguer-plancha-gratis", "jamon-bocata-gratis", "tortilla-gratis", "flamenquin-gratis", "finger-gratis", "huevo-gratis", "carne-gratis", "pinchitos-gratis", "calamares-gratis", "cazon-gratis", "sandwich-gratis", "sandwich-vegetal-gratis", "sandwich-mixto-gratis", "berenjenas-gratis", "queso-gratis", "jamon-gratis"],
+			"items": ["pechuga-plancha-gratis","beicon-gratis", "lomo-gratis", "carne-bocata-gratis", "burguer-pollo-gratis", "burguer-plancha-gratis", "jamon-bocata-gratis", "tortilla-gratis", "flamenquin-gratis", "finger-gratis", "huevo-gratis", "carne-gratis", "pinchitos-gratis", "calamares-gratis", "cazon-gratis", "sandwich-gratis", "sandwich-vegetal-gratis", "sandwich-mixto-gratis", "berenjenas-gratis", "queso-gratis", "jamon-gratis", "aceitunas-gratis"],
 			"info": ["Elija su tapa para acompañar la bebida", "Choose the tapa to go with your drink"]
 		},
 		"tapas-dia": {
@@ -208,6 +208,10 @@
 			"template": "jamon",
 			"price": 0
 		},
+		"aceitunas-gratis": {
+			"template": "aceitunas",
+			"price": 0
+		},
 		"pechuga-plancha": {
 			"name": ["Pechuga a la plancha", "Grilled chicken breast"],
 			"price": 2.2,
@@ -375,6 +379,22 @@
 			"filters": [],
 			"allergens": [],
 			"description": ["Delicioso jamón serrano acompañado por un poco de pan", "Delicious cured ham served with bread"]
+		},
+		"aceitunas": {
+			"name": ["aceitunas", "Olives"],
+			"price": 1,
+			"missing": "",
+			"filters": [],
+			"allergens": [],
+			"description": ["Delicioso aceitunas", "Delicious olives"]
+		},
+		"salsa-extra": {
+			"name": ["salsa-extra", "extra sauce"],
+			"price": 0.2,
+			"missing": "",
+			"filters": [],
+			"allergens": [],
+			"description": ["Salsa extra", "Extra sauce"]
 		},
 		"aceite": {
 			"name": ["Tostada de aceite", "Oil toast"],
